@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio de Milton Polanco | Index</title>
+  <meta name="description" content="Estudiante de la UVG interesado en compiladores y desarrollo de software.">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Inter, "Segoe UI", sans-serif; background: #0b1120; color: #e5e7eb; line-height: 1.65; }
+    nav { max-width: 920px; margin: auto; padding: 1.1rem 1.5rem; display: flex; gap: 1.25rem; justify-content: flex-end; }
+    nav a { color: #e5e7eb; text-decoration: none; opacity: .65; }
+    nav a:hover, nav a.active { color: #38bdf8; opacity: 1; }
+    header { max-width: 920px; margin: auto; padding: 5rem 1.5rem 4rem; }
+    .eyebrow { color: #38bdf8; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { max-width: 760px; margin: .5rem 0 1rem; font-size: clamp(2.4rem, 7vw, 4.8rem); line-height: 1.06; }
+    header p { max-width: 650px; opacity: .72; font-size: 1.1rem; }
+    main { max-width: 920px; margin: auto; padding: 0 1.5rem 5rem; }
+    section { margin-top: 1.25rem; padding: 2rem; background: #111827; border: 1px solid #263244; border-radius: 16px; }
+    h2 { margin-top: 0; color: #38bdf8; font-size: .85rem; letter-spacing: .16em; text-transform: uppercase; }
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+    .project { padding: 1.25rem; border: 1px solid #263244; border-radius: 12px; }
+    .project h3 { margin: 0 0 .4rem; }
+    .project p { margin: 0 0 1rem; opacity: .75; }
+    .tag { display: inline-block; margin-right: .8rem; padding: .18rem .55rem; border-radius: 999px; background: #38bdf822; color: #38bdf8; font-size: .78rem; }
+    a { color: #38bdf8; }
+    .project-link { font-size: .85rem; font-weight: 600; }
+    footer { padding: 2rem 1.5rem; text-align: center; border-top: 1px solid #263244; opacity: .5; font-size: .82rem; }
+  </style>
+</head>
+<body>
+  <nav><a class="active" href="index.html">Inicio</a><a href="proceso.html">Proceso</a></nav>
+  <header>
+    <div class="eyebrow">SiteLang / UVG 2026</div>
+    <h1>Convirtiendo un DSL en un sitio publicado</h1>
+    <p>Estudiante de la UVG interesado en compiladores y desarrollo de software.</p>
+  </header>
+  <main><section><h2>Sobre mi</h2><p>Para este laboratorio escribi SiteLang. ANTLR reconoce la entrada, un listener genera los archivos HTML y dos APIs los publican sin usar git ni la CLI de Vercel.</p></section><section><h2>Proyectos</h2><div class="projects"><article class="project"><h3>Compilador SiteLang</h3><p>Lexer, parser y listener hechos con ANTLR y Python.</p><span class="tag">ANTLR + Python</span><a class="project-link" href="https://github.com/MiltonPolanco">Ver proyecto</a></article><article class="project"><h3>Despliegue automatico</h3><p>Publicacion del HTML mediante las APIs REST de GitHub y Vercel.</p><span class="tag">REST + Docker</span><a class="project-link" href="https://vercel.com">Ver proyecto</a></article></div></section><section><h2>Contacto</h2><p><a href="mailto:147449770+MiltonPolanco@users.noreply.github.com">147449770+MiltonPolanco@users.noreply.github.com</a></p></section></main>
+  <footer>Generado desde un DSL y desplegado mediante las APIs de GitHub y Vercel.</footer>
+</body>
+</html>
